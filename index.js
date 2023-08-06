@@ -31,7 +31,7 @@ app.use((err, req, res, next) => {
   }
 });
 
-const allowedUserIds = ["623148006195331092", "971919703637393458", "879301072605315092"]; // Delete this line if you don't want have a whilelist system.
+const allowedUserIds = ["623148006195331092", "971919703637393458", "879301072605315092"]; // this is a whilelist system. Type your Discord Id and other people who has allow to login to the dashboard.
 
 passport.use(
   new DiscordStrategy(
@@ -145,6 +145,7 @@ app.get('/admin', (req, res) => {
       <html>
       <div class="container">
             <h3>Welcome, ${username}!</h3>
+             <img src="${avatarURL}" alt="Discord Avatar" class="avatar">
                     <h4>This is an Example Page!</h4>
           </div>
           <footer>
@@ -154,5 +155,5 @@ app.get('/admin', (req, res) => {
     `);
   } else {
     res.redirect('/auth/discord');
-  }
-});
+    }
+  });
