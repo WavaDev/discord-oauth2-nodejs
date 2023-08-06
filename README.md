@@ -5,7 +5,7 @@ A Simple Discord OAUTH2 Nodejs Example.
 - Download the source code
 - Unzip the code
 - Run `npm i` in the same folder as index.js
-- In the file called .env do the following: 
+- In the file called `.env` do the following: 
 ```
 CLIENT_ID= // Here is your Discord Client ID gonna be.
 CLIENT_SECRET= // Here is your CLient Secret gonna be.
