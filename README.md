@@ -7,7 +7,7 @@ A Simple Discord OAUTH2 Nodejs Example.
 - Run `npm i` in the same folder as index.js
 - In the file called `.env` do the following: 
 ```
-CLIENT_ID=     // Here is your Discord Client ID gonna be.
+CLIENT_ID=         // Here is your Discord Client ID gonna be.
 CLIENT_SECRET=     // Here is your CLient Secret gonna be.
 REDIRECT_URI=      // Here is your Redirect Url that you have added in the Discord Developer Panel.
 ```
