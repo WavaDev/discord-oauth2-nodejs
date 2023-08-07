@@ -13,7 +13,8 @@ REDIRECT_URI=      // Here is your Redirect Url that you have added in the Disco
 ```
 - In the File called `index.js` do the following:
 ```
-  const allowedUserIds = ["623148006195331092", "971919703637393458", "879301072605315092"]; // this is a whilelist system. Type your Discord Id and other people who has allow to login to the dashboard.
+  const allowedUserIds = ["623148006195331092", "971919703637393458", "879301072605315092"];
+  [This is a whilelist system. Type your Discord Id and other people who has allow to login to the dashboard.]
 ```
 - Now run `node index.js` to start the app.
 - The app will now be running on port `3000`.
